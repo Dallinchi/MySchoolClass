@@ -1,0 +1,518 @@
+*{
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1200px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-image: url(fon.jpg);
+    background-size: cover;
+    
+    
+    
+}
+li {
+    list-style-type: none;
+}
+ header { 
+    background-color: rgba(250, 235, 215, 0.5);
+    padding: 1%;
+    text-align: center;
+    margin: 3%;
+    box-shadow: 0 0 5px black;
+    color: rgba(25, 25, 105, 0.76)
+}
+ h1 { 
+padding: .7%;
+ margin: 1.1% auto; 
+ margin-inline: 45px; 
+background-color: rgba(133, 250, 0, 0.479);
+border: 1px solid white;
+box-shadow: 0 0 5px black;
+font-size: 15px;
+}
+h1 :first-letter{
+   color: red;
+   font-size: 20px;
+
+}
+p {
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+main {
+
+    margin: 8px; 
+
+}
+img:hover {
+
+    border: 1px solid white;
+    transition: .1s;
+
+}
+
+ .box__header__img { 
+    font-family: 'Oswald', sans-serif;
+    border: 1px solid white;
+    padding: 1%;
+    margin: 1%;
+    background-color: rgba(33, 74, 128, 0.781); 
+    box-shadow: 0 0 5px black;
+    color: rgb(255, 255, 255)
+}
+.box__header__img img {
+    max-width: 37vw;
+    max-height: 150px;
+
+    border: 1px solid white;
+    box-shadow: 0 0 5px black;
+}
+
+ 
+.name1 img {
+    
+width: 30px;
+height: 30px;
+margin: 5px;
+margin-top: 15px;
+border-radius: 50%;
+border: 0.5px solid white;
+
+box-shadow: 0 0 5px black;
+
+} 
+.name1 img:hover{
+width: 35px;
+height: 35px;
+margin: .1px;
+margin-top: 15px;
+border-radius: 50%;
+border: 0.5px solid lawngreen;
+
+box-shadow: 0 0 5px black;
+
+transition: all 0.1s; 
+
+}
+.name2 img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+    
+    box-shadow: 0 0 5px black;
+}
+.name2 img:hover{
+
+width: 35px;
+height: 35px;
+margin: .1px;
+margin-top: 15px;
+border-radius: 50%;
+border: 0.5px solid lawngreen;
+
+box-shadow: 0 0 5px black;
+
+transition: all .1s; }
+
+
+.header__prepod{
+    background-color: burlywood;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-block: 10px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 0 0 4px black;
+    text-align: center;
+    font-size: 24px;
+    padding: 3px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+}
+.header__prepod :hover{
+    color: gold;
+    transition: .2s;
+}
+.container__header {
+    display: flex;
+    justify-content: center;
+}
+
+            /* УЧЕНИКИ */
+
+  
+.student {
+
+margin: 8px;
+padding: 1px;
+text-align: center;
+color: aliceblue;
+background-color: rgba(23, 95, 53, 0.438);
+box-shadow: 0 0 10px black;
+
+}
+.main__container {
+
+    background-color: rgba(6, 85, 231, 0.418);
+    border: 2.5px solid rgba(223, 213, 213, 0.527);
+    box-shadow: 0 0 10px black;
+
+}
+.box__student {
+/* display: block; */
+display: flex;
+background-color: rgba(26, 70, 35, 0.651);
+border: 1px solid rgba(212, 202, 202, 0.486);
+margin: 7px;
+padding: 2px;
+box-shadow: 0 0 10px black;
+text-shadow: 0 5px 5px rgba(5, 8, 5, 0.295);
+
+}
+.box__student img {
+  height: 95px;
+  max-width: 100vw;
+  margin: 4px;
+  border: 1.5px solid rgba(10, 10, 10, 0.63);
+  box-shadow: 0 0 5px black;
+  margin-top: 10 auto;
+}
+
+
+/* УЧИТЕЛЯ */
+
+
+
+.main__container_2 {
+
+    background-color: rgba(10, 78, 33, 0.548);
+    border: 2.5px solid rgba(223, 213, 213, 0.527);
+    box-shadow: 0 0 10px black;
+
+}
+.box__student2 {
+display: flex;
+background-color: rgba(15, 32, 88, 0.548);
+border: 1px solid rgba(212, 202, 202, 0.486);
+margin: 7px;
+padding: 2px;
+box-shadow: 0 0 10px black;
+
+/* display: block; */
+
+}
+.box__student2 img {
+  height: 95px;
+  max-width: 95px;
+  margin: 4px;
+  border: 1.5px solid rgba(10, 10, 10, 0.63);
+  box-shadow: 0 0 5px black;
+  margin-top: 10 auto;
+
+}
+/* галерея */
+
+.gallery{
+
+    background-color: rgba(25, 45, 63, 0.534);
+}
+.box__img{
+    display: inline;
+}
+.box__img img{
+    
+    width: 40vw;
+    margin-top: 2px
+
+}
+@media screen and  (max-width:330px){
+
+    .box__student{
+    display: block;
+    } 
+    .box__student2{
+        display: block;
+}
+}
+
+@media screen and  (min-width:1200px){
+
+    *{
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        max-width: 1200px;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+        background-image: url(fon.jpg);
+        background-size: cover;
+        
+        
+        
+    }
+    li {
+        list-style-type: none;
+    }
+     header { 
+        background-color: rgba(250, 235, 215, 0.5);
+        padding: 1%;
+        text-align: center;
+        margin: 10px 10%;
+        box-shadow: 0 0 5px black;
+        color: rgba(25, 25, 105, 0.76)
+    }
+     h1 { 
+    padding: .7%;
+     margin: 1.1% 120px; 
+     margin-inline: 405px; 
+    background-color: rgba(11, 28, 83, 0.658);
+    border: .4px solid black; 
+    box-shadow: 0 0 5px black;
+    font-size: 35px;
+    /* border-radius: 2px; */
+    color: rgba(20, 230, 1, 0.678);
+    text-shadow: 0 0 2px white;
+    }
+    h1 :first-letter{
+       color: red;
+       font-size: 20px;
+    
+    }
+    p {
+        font-size: 12px;
+    }
+    a{
+        text-decoration: none;
+        color: cornflowerblue;
+    }
+    
+    main {
+    
+        margin: 8px; 
+    
+    }
+    img:hover {
+    
+        border: 8px solid white;
+        transition: .1s;
+    
+    }
+    
+     .box__header__img { 
+        font-family: 'Oswald', sans-serif;
+        border: 1px solid white;
+        padding: 1%;
+        margin: 1%;
+        background-color: rgba(33, 74, 128, 0.781); 
+        box-shadow: 0 0 5px black;
+        color: rgb(255, 255, 255);
+        
+    }
+    .box__header__img p{font-size:18px;}
+    .box__header__img img {
+        max-width: 77vw;
+        max-height: 450px;
+    
+        border: 1px solid white;
+        box-shadow: 0 0 5px black;
+    }
+    .box__header__img img:hover {
+
+        max-height: 455px;
+        transition: .8s;
+
+    }
+     
+    .name1 img {
+        
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+    
+    box-shadow: 0 0 5px black;
+    
+    } 
+    .name1 img:hover{
+    width: 75px;
+    height: 75px;
+    margin: .1px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 0.5px solid lawngreen;
+    
+    box-shadow: 0 0 5px black;
+    
+    transition: all 0.1s; 
+    
+    }
+    .name2 img {
+        width: 60px;
+        height: 60px;
+        margin: 15px;
+        margin-top: 15px;
+        border-radius: 50%;
+        border: 0.5px solid white;
+        
+        box-shadow: 0 0 5px black;
+    }
+    .name2 img:hover{
+    
+    width: 75px;
+    height: 75px;
+    margin: .1px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 0.5px solid lawngreen;
+    
+    box-shadow: 0 0 5px black;
+    
+    transition: all .1s; }
+    
+    
+    .header__prepod{
+        background-color: burlywood;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-block: 10px;
+        width: 100px;
+        border: 1px solid white;
+        border-radius: 3px;
+        box-shadow: 0 0 4px black;
+        text-align: center;
+        font-size: 24px;
+        padding: 3px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+    }
+    .header__prepod :hover{
+        color: gold;
+        transition: .2s;
+    }
+    .container__header {
+        display: flex;
+        justify-content: center;
+    }
+    
+                /* УЧЕНИКИ */
+    
+      
+    .student {
+    
+    margin: 30px 400px;
+    padding: 1px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(23, 95, 53, 0.438);
+    box-shadow: 0 0 10px black;
+    
+    }
+    .main__container {
+    
+        background-color: rgba(6, 85, 231, 0.418);
+        border: 2.5px solid rgba(223, 213, 213, 0.527);
+        box-shadow: 0 0 10px black;
+        margin: 0 200px;
+        
+        
+        
+    
+    }
+    .box__student {
+    /* display: block; */
+    display: flex;
+    background-color: rgba(26, 70, 35, 0.651);
+    border: 1px solid rgba(212, 202, 202, 0.486);
+    margin: 20px  px;
+    padding: 2px;
+    box-shadow: 0 0 10px black;
+    text-shadow: 0 5px 5px rgba(5, 8, 5, 0.295);
+    
+    
+    
+    }
+
+    .box__student p {font-size: 20px;} 
+    .box__student img {
+      height: 95px;
+      max-width: 100vw;
+      margin: 4px;
+      border: 1.5px solid rgba(10, 10, 10, 0.63);
+      box-shadow: 0 0 5px black;
+      margin-top: 10 auto;
+    }
+    
+    
+    /* УЧИТЕЛЯ */
+    
+    
+    
+    .main__container_2 {
+    
+        background-color: rgba(10, 78, 33, 0.548);
+        border: 2.5px solid rgba(223, 213, 213, 0.527);
+        box-shadow: 0 0 10px black;
+        margin: 0 200px;
+    
+    }
+    .box__student2 {
+    display: flex;
+    background-color: rgba(15, 32, 88, 0.548);
+    border: 1px solid rgba(212, 202, 202, 0.486);
+    margin: 7px;
+    padding: 2px;
+    box-shadow: 0 0 10px black;
+    
+    /* display: block; */
+     
+    
+    }
+    .box__student2 img {
+      height: 95px;
+      max-width: 95px;
+      margin: 4px;
+      border: 1.5px solid rgba(10, 10, 10, 0.63);
+      box-shadow: 0 0 5px black;
+      margin-top: 10 auto;
+    
+    }
+    .box__student2 p {font-size: 20px;} 
+    /* галерея */
+    
+    .gallery{
+    
+        background-color: rgba(25, 45, 63, 0.534);
+    }
+    .box__img{
+        display: inline;
+    }
+    .box__img img{
+        
+        
+        width: 20vw;
+        margin: 5px;
+        margin-top: 15px;
+        border: 5px solid rgba(7, 53, 14, 0.418);
+    
+    }
+
+}
